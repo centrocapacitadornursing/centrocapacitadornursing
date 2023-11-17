@@ -9,7 +9,6 @@ body {
     text-align: center;
     font-family: sans-serif;
 }
-
 .head {
     display: flex;
     align-items: center;
@@ -21,23 +20,19 @@ body {
     z-index: 100;
 
 }
-
 .navbar {
     display: flex;
     margin-right: 40px;
 }
-
 .logo {
     margin-left: 10px;
 }
-
 .logo a {
    text-decoration: none;
    color: #fff;
    text-transform: uppercase;
    font-size: 20px
 }
-
 .logo .enlace-grande {
     display: block; /* Muestra el enlace grande por defecto */
     font-weight: 700;
@@ -45,12 +40,10 @@ body {
         text-shadow: 4px 4px 8px #171717;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
-  }
-  
+}
   .logo .enlace-pequeno {
     display: none; /* Oculta el enlace pequeño por defecto */
-  }
-
+}
 .navbar a {
     display: block;
     padding: 10px 10px;
@@ -65,11 +58,9 @@ body {
     text-shadow: 2px 2px 4px #171717;
 
 }
-
 .navbar a:hover {
     background: #073d6e;
 }
-
 .header {
     position: relative;
     display: flex;
@@ -77,7 +68,6 @@ body {
     align-items: center;
     height: 60vh;
 }
-
 .header::before {
     content: "";
     position: absolute;
@@ -89,7 +79,6 @@ body {
     background-size: cover;
     opacity: 0.7;
 }
-
 .title {
     margin-bottom: 40px;
     font-size: 60px;
@@ -97,7 +86,6 @@ body {
     text-transform: uppercase;
     color: #fff;
 }
-
 .title1 {
     margin-bottom: 40px;
     font-size: 60px;
@@ -105,7 +93,6 @@ body {
     text-transform: uppercase;
     color: #fff;
 }
-
 .titleh {
     margin-bottom: 40px;
     font-size: 40px;
@@ -117,7 +104,6 @@ body {
     position: relative;
     text-align: center; /* Centra el texto */
 }
-
 .texh {
     margin-bottom: 120px;
     font-size: 18px;
@@ -126,15 +112,12 @@ body {
     padding: 0 20px; /* Reduje el padding para centrar mejor el texto */
     z-index: 1;
 }
-
-
 p{
     margin-bottom: 40px;
     font-size: 18px;
     color: #fff;
     padding: 0 100px;
 }
-
 .btn {
     display: inline-block;
     margin-top: 15px;
@@ -144,11 +127,9 @@ p{
     text-decoration: none;
     background: #104b81;
 }
-
 .btn:hover {
     background: none;
 }
-
 .content {
     height: 50vh;
     display: flex;
@@ -156,19 +137,16 @@ p{
     justify-content: center;
     align-items: center;
 }
-
 .sau {
     padding: 50px;
     background: #303030;
 }
-
 .box-container {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     text-align: center;
 }
-
 .box-container .box {
     height: 220px;
     width: 270px;
@@ -178,7 +156,6 @@ p{
     box-shadow: 0 5px 5px rgba(0, 0, 0, .3);
     margin: 20px;
 }
-
 .box-container .box i {
     height: 50px;
     width: 50px;
@@ -190,36 +167,30 @@ p{
     font-size: 25px;
     margin: 10px 0;
 }
-
 .box-container .box h3 {
     font-size: 20px;
     color: #0d77da;
 }
-
 .box-container .box p {
     padding: 0 15px;
     font-size: 16px;
 }
-
 .price {
     background: url(img/portada2.jpg) no-repeat center;
     background: cover;
     background-attachment: fixed;
     text-align: center;
 }
-
 .about {
     background: #303030;
     padding: 50px 0;
 }
-
 .box-container2 {
     display: flex;
     justify-content: center;
     padding-top: 50px;
     flex-wrap: wrap;
 }
-
 .box-container2 .box {
     width: 250px;
     padding-bottom: 20px;
@@ -228,7 +199,6 @@ p{
     background: #171717;
     margin: 20px 20px;
 }
-
 .box-container2 .box img {
     height: 70px;
     width: 70px;
@@ -237,19 +207,16 @@ p{
     margin-top: -50px;
     border: 6px solid #104b81;
 }
-
 .box-container2 .box h3 {
     font-size: 20px;
     color: #104b81;
     padding-top: 10px;
 }
-
 .box-container2 .box p {
     font-size: 18px;
     color: #fff;
     padding: 0;
 }
-
 .box-container2 .box .stars i {
     font-size: 15px;
     color: #104b81;
@@ -258,32 +225,26 @@ p{
     padding: 50px 0;
     background:  rgb(0, 138, 131);
 }
-
-
 .footer-section{
     display: flex;
 
 }
-
 .containf{
     display: flex;
     justify-content: center;
     padding: -50px;
     flex-wrap: wrap;
 }
-
 .f-enlaces {
     display: flex;
     flex-direction: column;
     margin: 0 100px;
 }
-
 .f-enlaces a {
     color: #fff;
     text-decoration: none;
     margin-top: 20px;
 }
-
 @media only screen and (max-width: 768px) {
     .title{
         margin-bottom: 0px;
@@ -309,6 +270,8 @@ p{
         margin-right: -3px;
         font-size: 14px;
         text-shadow: 2px 2px 4px #171717;
+        flex: 1;
+        padding: 10px 0;
     }
     .logo .enlace-grande {
         display: none; /* Oculta el enlace grande en pantallas pequeñas */
@@ -336,97 +299,4 @@ p{
     margin-top: 190px;
 
     }
-}
-
-@media only screen and (max-width: 600px) {
-    .title{
-        margin-bottom: 0px;
-        font-size: 40px;
-    }
-    .sau{
-        height: 100vh;
-        padding: 50px 0;
-    }
-    .about {
-        height: 100vh;
-        padding: 50px 0;
-    }
-    .footer-section{
-        display: flex;
-        flex-direction: column;
-    }
-    .f-enlaces{
-        display: none;
-    }
-    .navbar a{
-        display: flex;
-        margin-right: -3px;
-        font-size: 14px;
-        text-shadow: 2px 2px 4px #171717;
-    }
-    .logo .enlace-grande {
-        display: none; /* Oculta el enlace grande en pantallas pequeñas */
-      }
-    
-      .logo .enlace-pequeno {
-        display: block; /* Muestra el enlace pequeño en pantallas pequeñas */
-        font-weight: 700;
-        text-shadow: 4px 4px 8px #171717;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      } 
-
-    .title1 {
-        padding: 10px 10px;
-        color: #fff;
-        text-decoration: none;
-        text-transform: uppercase;
-        font-size: 50px;
-        justify-content: center;
-        align-items: center;
-        font-family: monospace;
-        font-weight: 600;
-        text-shadow: 2px 2px 4px #171717;
-        text-align: center;
-        margin-top: 190px;
-    
-    }
-
-}
-
-@media only screen and (max-width: 1024px) {
-    .title{
-        margin-bottom: 0px;
-        font-size: 40px;
-    }
-    .sau{
-        height: 100vh;
-        padding: 50px 0;
-    }
-    .about {
-        height: 100vh;
-        padding: 50px 0;
-    }
-    .footer-section{
-        display: flex;
-        flex-direction: column;
-    }
-    .f-enlaces{
-        display: none;
-    }
-    .navbar a{
-        display: flex;
-        margin-right: -3px;
-        font-size: 14px;
-        text-shadow: 2px 2px 4px #171717;
-    }
-    .logo .enlace-grande {
-        display: none; /* Oculta el enlace grande en pantallas pequeñas */
-      }
-    
-      .logo .enlace-pequeno {
-        display: block; /* Muestra el enlace pequeño en pantallas pequeñas */
-        font-weight: 700;
-        text-shadow: 4px 4px 8px #171717;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      } 
 }
