@@ -262,6 +262,9 @@ p{
         display: flex;
         flex-direction: column;
     }
+    .navbar {
+        margin-right: 0;
+    }
     .f-enlaces{
         display: none;
     }
@@ -272,6 +275,7 @@ p{
         text-shadow: 2px 2px 4px #171717;
         flex: 1;
         padding: 10px 0;
+        text-align: center;
     }
     .logo .enlace-grande {
         display: none; /* Oculta el enlace grande en pantallas pequeñas */
