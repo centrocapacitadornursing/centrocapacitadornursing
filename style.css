@@ -34,7 +34,7 @@ body {
    font-size: 20px
 }
 .logo .enlace-grande {
-    display: block; /* Muestra el enlace grande por defecto */
+    display: block;
     font-weight: 700;
     font-size: 20px;
         text-shadow: 4px 4px 8px #171717;
@@ -42,7 +42,7 @@ body {
 
 }
 .logo .enlace-pequeno {
-    display: none; /* Oculta el enlace pequeño por defecto */
+    display: none; 
 }
 .navbar a {
     display: block;
@@ -63,13 +63,12 @@ body {
 }
 
 .menu-icon {
-    display: none; /* Oculta el botón de menú por defecto */
+    display: none; 
 }
 
 .mobile-menu {
-    display: none; /* Oculta la lista desplegable por defecto */
+    display: none;
 }
-
 
 .header {
     position: relative;
