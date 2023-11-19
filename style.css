@@ -332,6 +332,11 @@ p{
     }
     .header{
         margin-bottom: 10px;
+        position: relative;
+        display: auto;
+        justify-content: center;
+        align-items: center;
+        height: auto ;
         
     }
     .footer-section{
