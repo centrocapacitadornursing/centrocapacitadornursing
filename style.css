@@ -322,7 +322,6 @@ p{
     }
     .sau{
         position: relative;
-        display: auto;
         justify-content: center;
         align-items: center;
         height: auto ;
@@ -334,14 +333,26 @@ p{
     .header{
         margin-bottom: 10px;
         position: relative;
-        display: auto;
+        display: flex;
         justify-content: center;
         align-items: center;
         height: auto;
     }
-    .footer-section{
+    .foother-section{
         display: flex;
         flex-direction: column;
+        position: relative;
+        display: auto;
+        justify-content: center;
+        align-items: center;
+        height: auto ;
+    }
+
+    .title3 {
+        justify-content: center;
+        align-items: center;
+        font-size: 30px;
+
     }
     .navbar {
         margin-right: 0;
@@ -381,7 +392,6 @@ p{
     font-weight: 600;
     text-shadow: 2px 2px 4px #171717;
     text-align: center;
-    margin-top: 190px;
 
     }
 
